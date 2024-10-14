@@ -401,4 +401,16 @@ public class VoiceModule extends ReactContextBaseJavaModule implements Recogniti
     }
     return message;
   }
+  
+  // PCG Patched BEGIN - Required for rn built in EventEmitter Calls.
+  @ReactMethod
+  public void addListener(String eventName) {
+
+  }
+
+  @ReactMethod
+  public void removeListeners(Integer count) {
+
+  }
+  // PCG Patched END 
 }
