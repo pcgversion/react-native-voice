@@ -15,7 +15,6 @@ build/
 VoiceModule.iml
 yarn-error.log
 
-dist
 
 plugin/build
 
